@@ -1,7 +1,8 @@
 # Home Cooked
-> [Home Page](https://home-cooked.herokuapp.com)
+[Home Page](https://home-cooked.herokuapp.com)
 
-> Application that allows users to search for home cooked meals that they can pay to have others cook it for them. The platform also allows users to post home cooked meals themselves for others to search for
+Application that allows users to search for home cooked meals that they can pay to have others cook it for them. The platform also allows users to post home cooked meals themselves for others to search for
+
 ## Team
 
   - __Product Owner__: Suya Xu
@@ -20,9 +21,9 @@
 
 ## Usage
 
-> Users will create an account to have access to see information on the meals presented by other users. Once logged in, users can see information about the meals, including days of the week that the cooker is available to cook the meal, and what is included in the meal. Once decided on the meal, Home Cooked will connect the two users.
+Users will create an account to have access to see information on the meals presented by other users. Once logged in, users can see information about the meals, including days of the week that meal are available, and what is included in the meal. Once decided on the meal, Home Cooked will connect the two users.
 
-> Users can also most meals they would like to cook for others as well. They can go to the post page and fill out a form with all of the information about the meal. The meal will instantly be available for other users to choose on the main list page.
+Users can also post meals they would like to cook for others as well. They can go to the post page and fill out a form with all of the information about the meal. The meal will instantly be available for other users to choose on the main list page.
 
 ## Requirements
 
