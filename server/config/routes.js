@@ -11,12 +11,12 @@ module.exports = function (app, express) {
   app.post('/api/users/signin', userController.signin);
   app.post('/api/users/signup', userController.signup);
   app.put('/api/users/updateuser', userController.updateUser);
-  app.put('/api/meals/updatemeal', mealController.updateMeal);
   //for meals
-  app.put('/api/meals/meal', mealController.deleteMeal);
+  app.get('/api/meal', mealController.getOne);
   app.get('/api/meals', mealController.allMeals);
+  app.put('/api/meals/meal', mealController.deleteMeal);
+  app.put('/api/meals/updatemeal', mealController.updateMeal);
   app.post('/api/meals', mealController.newMeal);
-  app.post('/api/meal', mealController.getOne);
 
   //for other
   app.get('/api/*', mealController.allMeals);
